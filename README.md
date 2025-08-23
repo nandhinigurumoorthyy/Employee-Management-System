@@ -5,6 +5,10 @@ It allows you to **view, add, edit, and delete employees**, with support for fil
 
 ---
 
+## Live Demo:
+👉 [**Click here to view the deployed site**](https://restaurant-reservation-ui.netlify.app/)
+
+---
 ## Features
 
 - Display employee list in **table** or **card** view.
