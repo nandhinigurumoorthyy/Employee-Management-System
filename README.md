@@ -37,8 +37,6 @@ It allows you to **view, add, edit, and delete employees**, with support for fil
 
 employee-directory/
 ├─ public/
-│  ├─ index.html
-│  └─ favicon.ico
 ├─ src/
 │  ├─ components/
 │  │  ├─ EmployeeGrid.jsx
@@ -46,11 +44,13 @@ employee-directory/
 │  │  ├─ EmployeeForm.jsx
 │  │  ├─ FilterSidebar.jsx
 │  │  └─ Header.jsx
+│  │  └─ Footer.jsx
 │  ├─ data/
-│  │  └─ initialEmployees.js
+│  │  └─ data.js
 │  ├─ App.jsx
 │  ├─ index.jsx
-│  └─ styles.css
+│  └─ index.css
+├─ index.html
 ├─ package.json
 └─ README.md
 
@@ -89,7 +89,7 @@ npm start
 * **Add Employee**: Click `Add Employee` button → fill form → submit.
 * **Edit Employee**: Click `Edit` on an employee row or card → update details → submit.
 * **Delete Employee**: Click `Delete` → confirm → employee is removed.
-* **Filter & Sort**: Use filter sidebar or sort dropdown to manage the employee list.
+* **Filter & Sort**: Use filter option or sort dropdown to manage the employee list.
 * **Pagination**: Change page size dropdown to view more employees at a time.
 
 ---
